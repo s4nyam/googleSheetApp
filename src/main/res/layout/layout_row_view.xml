@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tvformid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceLarge"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvPcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvPguardian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvPaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvPdoj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvtimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvdr_attending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvbed_allot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvinsurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvot_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+        <TextView
+            android:id="@+id/tvemergency_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="TextView" />
+
+    </LinearLayout>
+</RelativeLayout>
